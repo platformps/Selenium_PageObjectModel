@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="2" failures="1" name="testcases.TestNumberOne" time="5.175" errors="0" skipped="0">
+<testsuite tests="2" failures="0" name="testcases.TestNumberOne" time="16.47" errors="0" skipped="0">
   <properties>
     <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Amazon Corretto\jdk1.8.0_282\jre\bin"/>
@@ -27,26 +27,24 @@
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="user.variant" value=""/>
     <property name="os.name" value="Windows 10"/>
-    <property name="classworlds.conf" value="C:\apache-maven\bin\..\bin\m2.conf"/>
+    <property name="classworlds.conf" value="C:\Users\PSAdmin\eclipse-workspace\.metadata\.plugins\org.eclipse.m2e.launching\launches\m2conf10260943754230966288.tmp"/>
     <property name="sun.jnu.encoding" value="Cp1252"/>
-    <property name="java.library.path" value="C:\Program Files\Amazon Corretto\jdk1.8.0_282\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\PROGRA~1\Java\jdk1.8.0_301\bin;C:\Users\PSAdmin\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Python 3.10;C:\Program Files\Git\bin;C:\Program Files\Git\cmd;C:\Windows\System32\;&quot;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS&quot;;C:\Program Files\Docker\Docker\resources\bin;C:\ProgramData\DockerDesktop\version-bin;C:\apache-maven\bin;C:\apache-maven\bin;C:\Program Files\Amazon Corretto\jdk1.8.0_282\bin;C:\Program Files\Amazon Corretto\jdk1.8.0_282;C:\Users\PSAdmin\AppData\Local\Programs\Python\Python310\Scripts\;C:\Users\PSAdmin\AppData\Local\Programs\Python\Python310\;C:\Users\PSAdmin\AppData\Local\Microsoft\WindowsApps;C:\Program Files\eclipse;C:\PROGRA~1\Java\jdk1.8.0_301;C:\Program Files\JetBrains\IntelliJ IDEA 2021.2.1\bin;;C:\PROGRA~1\Java\jdk1.8.0_301\bin;C:\Program Files\Amazon Corretto\jdk1.8.0_282;C:\Program Files\Amazon Corretto\jdk1.8.0_282\bin;C:\Users\PSAdmin\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Python 3.10;C:\Windows\System32\curl.exe;C:\apache-maven\bin;C:\Program Files\TestProject Agent;;."/>
-    <property name="maven.conf" value="C:\apache-maven\bin\../conf"/>
+    <property name="java.library.path" value="C:\Program Files\Amazon Corretto\jdk1.8.0_282\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:/Users/PSAdmin/Downloads/eclipse-java-2021-03-R-win32-x86_64/eclipse//plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_15.0.2.v20210201-0955/jre/bin/server;C:/Users/PSAdmin/Downloads/eclipse-java-2021-03-R-win32-x86_64/eclipse//plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_15.0.2.v20210201-0955/jre/bin;C:\PROGRA~1\Java\jdk1.8.0_301\bin;C:\Users\PSAdmin\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Python 3.10;C:\Program Files\Git\bin;C:\Program Files\Git\cmd;C:\Windows\System32\;&quot;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS&quot;;C:\Program Files\Docker\Docker\resources\bin;C:\ProgramData\DockerDesktop\version-bin;C:\apache-maven\bin;C:\Users\PSAdmin\AppData\Local\Programs\Python\Python310\Scripts\;C:\Users\PSAdmin\AppData\Local\Programs\Python\Python310\;C:\Users\PSAdmin\AppData\Local\Microsoft\WindowsApps;C:\Program Files\eclipse;C:\PROGRA~1\Java\jdk1.8.0_301;C:\Program Files\JetBrains\IntelliJ IDEA 2021.2.1\bin;;C:\PROGRA~1\Java\jdk1.8.0_301\bin;C:\Program Files\Amazon Corretto\jdk1.8.0_282;C:\Program Files\Amazon Corretto\jdk1.8.0_282\bin;C:\Users\PSAdmin\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Python 3.10;C:\Windows\System32\curl.exe;C:\apache-maven\bin;C:\Program Files\TestProject Agent;C:\Users\PSAdmin\Downloads\eclipse-java-2021-03-R-win32-x86_64\eclipse;;."/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.class.version" value="52.0"/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="os.version" value="10.0"/>
-    <property name="library.jansi.path" value="C:\apache-maven\bin\..\lib\jansi-native"/>
     <property name="user.home" value="C:\Users\PSAdmin"/>
     <property name="user.timezone" value="America/New_York"/>
     <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
     <property name="java.specification.version" value="1.8"/>
     <property name="file.encoding" value="Cp1252"/>
     <property name="user.name" value="PSAdmin"/>
-    <property name="java.class.path" value="C:\apache-maven\bin\..\boot\plexus-classworlds-2.5.2.jar"/>
+    <property name="java.class.path" value="C:\Users\PSAdmin\Downloads\eclipse-java-2021-03-R-win32-x86_64\eclipse\plugins\org.eclipse.m2e.maven.runtime_1.16.0.20210129-0849\jars\plexus-classworlds-2.6.0.jar"/>
     <property name="java.vm.specification.version" value="1.8"/>
     <property name="sun.arch.data.model" value="64"/>
     <property name="java.home" value="C:\Program Files\Amazon Corretto\jdk1.8.0_282\jre"/>
-    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher clean test"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher -B install"/>
     <property name="java.specification.vendor" value="Oracle Corporation"/>
     <property name="user.language" value="en"/>
     <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
@@ -54,27 +52,15 @@
     <property name="java.version" value="1.8.0_282"/>
     <property name="java.ext.dirs" value="C:\Program Files\Amazon Corretto\jdk1.8.0_282\jre\lib\ext;C:\WINDOWS\Sun\Java\lib\ext"/>
     <property name="sun.boot.class.path" value="C:\Program Files\Amazon Corretto\jdk1.8.0_282\jre\lib\resources.jar;C:\Program Files\Amazon Corretto\jdk1.8.0_282\jre\lib\rt.jar;C:\Program Files\Amazon Corretto\jdk1.8.0_282\jre\lib\sunrsasign.jar;C:\Program Files\Amazon Corretto\jdk1.8.0_282\jre\lib\jsse.jar;C:\Program Files\Amazon Corretto\jdk1.8.0_282\jre\lib\jce.jar;C:\Program Files\Amazon Corretto\jdk1.8.0_282\jre\lib\charsets.jar;C:\Program Files\Amazon Corretto\jdk1.8.0_282\jre\lib\jfr.jar;C:\Program Files\Amazon Corretto\jdk1.8.0_282\jre\classes"/>
-    <property name="sun.stderr.encoding" value="cp437"/>
     <property name="java.vendor" value="Amazon.com Inc."/>
-    <property name="maven.home" value="C:\apache-maven\bin\.."/>
+    <property name="maven.home" value="C:\Users\PSAdmin\eclipse-workspace\Selenium_PageObjectModel\EMBEDDED"/>
     <property name="file.separator" value="\"/>
     <property name="java.vendor.url.bug" value="https://github.com/corretto/corretto-8/issues/"/>
     <property name="sun.cpu.endian" value="little"/>
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
-    <property name="sun.stdout.encoding" value="cp437"/>
     <property name="sun.desktop" value="windows"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase classname="testcases.TestNumberOne" name="navigate_to_homepage_click_on_getstarted" time="5.15"/>
-  <testcase classname="testcases.TestNumberOne" name="enter_userDetails" time="0.025">
-    <failure message="expected [App &amp; Browser Testing Made Easy] but found [Create a FREE Account]" type="java.lang.AssertionError">java.lang.AssertionError: expected [App &amp; Browser Testing Made Easy] but found [Create a FREE Account]
-	at org.testng.Assert.fail(Assert.java:94)
-	at org.testng.Assert.failNotEquals(Assert.java:494)
-	at org.testng.Assert.assertEquals(Assert.java:123)
-	at org.testng.Assert.assertEquals(Assert.java:176)
-	at org.testng.Assert.assertEquals(Assert.java:186)
-	at pages.SignUpPage.veryHeader(SignUpPage.java:57)
-	at testcases.TestNumberOne.enter_userDetails(TestNumberOne.java:41)
-</failure>
-  </testcase>
+  <testcase classname="testcases.TestNumberOne" name="navigate_to_homepage_click_on_getstarted" time="6"/>
+  <testcase classname="testcases.TestNumberOne" name="enter_userDetails" time="10.47"/>
 </testsuite>

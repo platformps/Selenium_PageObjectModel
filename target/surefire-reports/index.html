@@ -23,7 +23,7 @@
     <div class="top-banner-root">
       <span class="top-banner-title-font">Test results</span>
       <br/>
-      <span class="top-banner-font-1">1 suite, 1 failed test</span>
+      <span class="top-banner-font-1">1 suite</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -37,7 +37,7 @@
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
             <a href="#" class="navigator-link" panel-name="suite-testcases.TestNumberOne">
-              <span class="suite-name border-failed">testcases.TestNumberOne</span>
+              <span class="suite-name border-passed">testcases.TestNumberOne</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -90,21 +90,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">2 methods, 1 failed,   1 passed</span>
-                  </li>
-                  <li>
-                    <span class="method-list-title failed">Failed methods</span>
-                    <span class="show-or-hide-methods failed">
-                      <a href="#" panel-name="suite-testcases.TestNumberOne" class="hide-methods failed suite-testcases.TestNumberOne"> (hide)</a> <!-- hide-methods failed suite-testcases.TestNumberOne -->
-                      <a href="#" panel-name="suite-testcases.TestNumberOne" class="show-methods failed suite-testcases.TestNumberOne"> (show)</a> <!-- show-methods failed suite-testcases.TestNumberOne -->
-                    </span>
-                    <div class="method-list-content failed suite-testcases.TestNumberOne">
-                      <span>
-                        <img width="3%" src="failed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-testcases.TestNumberOne" title="testcases.TestNumberOne" hash-for-method="enter_userDetails">enter_userDetails</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                    </div> <!-- method-list-content failed suite-testcases.TestNumberOne -->
+                    <span class="method-stats">2 methods,   2 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -113,6 +99,11 @@
                       <a href="#" panel-name="suite-testcases.TestNumberOne" class="show-methods passed suite-testcases.TestNumberOne"> (show)</a> <!-- show-methods passed suite-testcases.TestNumberOne -->
                     </span>
                     <div class="method-list-content passed suite-testcases.TestNumberOne">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-testcases.TestNumberOne" title="testcases.TestNumberOne" hash-for-method="enter_userDetails">enter_userDetails</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
                       <span>
                         <img width="3%" src="passed.png"/>
                         <a href="#" class="method navigator-link" panel-name="suite-testcases.TestNumberOne" title="testcases.TestNumberOne" hash-for-method="navigate_to_homepage_click_on_getstarted">navigate_to_homepage_click_on_getstarted</a> <!-- method navigator-link -->
@@ -130,9 +121,9 @@
     <div class="wrapper">
       <div class="main-panel-root">
         <div panel-name="suite-testcases.TestNumberOne" class="panel testcases.TestNumberOne">
-          <div class="suite-testcases.TestNumberOne-class-failed">
+          <div class="suite-testcases.TestNumberOne-class-passed">
             <div class="main-panel-header rounded-window-top">
-              <img src="failed.png"/>
+              <img src="passed.png"/>
               <span class="class-name">testcases.TestNumberOne</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
@@ -141,21 +132,8 @@
                   <a name="enter_userDetails">
                   </a> <!-- enter_userDetails -->
                   <span class="method-name">enter_userDetails</span>
-                  <div class="stack-trace">java.lang.AssertionError: expected [App &amp; Browser Testing Made Easy] but found [Create a FREE Account]
-	at pages.SignUpPage.veryHeader(SignUpPage.java:57)
-	at testcases.TestNumberOne.enter_userDetails(TestNumberOne.java:41)
-... Removed 38 stack frames
-</div> <!-- stack-trace -->
                 </div> <!-- method-content -->
               </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-testcases.TestNumberOne-class-failed -->
-          <div class="suite-testcases.TestNumberOne-class-passed">
-            <div class="main-panel-header rounded-window-top">
-              <img src="passed.png"/>
-              <span class="class-name">testcases.TestNumberOne</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
                   <a name="navigate_to_homepage_click_on_getstarted">
@@ -218,18 +196,18 @@ data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
 data.addRows(2);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'navigate_to_homepage_click_on_getstarted')
+data.setCell(0, 1, 'enter_userDetails')
 data.setCell(0, 2, 'testcases.TestNumberOne')
-data.setCell(0, 3, 5147);
+data.setCell(0, 3, 10472);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'enter_userDetails')
+data.setCell(1, 1, 'navigate_to_homepage_click_on_getstarted')
 data.setCell(1, 2, 'testcases.TestNumberOne')
-data.setCell(1, 3, 27);
+data.setCell(1, 3, 5999);
 window.suiteTableData['testcases.TestNumberOne']= { tableData: data, tableDiv: 'times-div-testcases.TestNumberOne'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 5 seconds</span>
+              <span class="suite-total-time">Total running time: 16 seconds</span>
               <div id="times-div-testcases.TestNumberOne">
               </div> <!-- times-div-testcases.TestNumberOne -->
             </div> <!-- times-div -->
@@ -262,17 +240,15 @@ return data;
               </div> <!-- configuration-test before -->
               <div class="test-method">
                 <span class="method-name">navigate_to_homepage_click_on_getstarted</span>
-                <span class="method-start">24246 ms</span>
+                <span class="method-start">5669 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
-                <img src="failed.png">
-                </img>
                 <span class="method-name">enter_userDetails</span>
-                <span class="method-start">29394 ms</span>
+                <span class="method-start">11668 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-test after">
                 <span class="method-name">closeBrowser</span>
-                <span class="method-start">29424 ms</span>
+                <span class="method-start">22141 ms</span>
               </div> <!-- configuration-test after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

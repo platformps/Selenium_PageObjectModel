@@ -33,6 +33,7 @@ public class TestNumberOne {
 	objHomePage = new HomePage(driver);
 	objHomePage.veryHeader();
 	objHomePage.clickOnGetStarted();
+	System.out.println("Home Page Test is done");
 	}
 
 	@Test(priority = 2)

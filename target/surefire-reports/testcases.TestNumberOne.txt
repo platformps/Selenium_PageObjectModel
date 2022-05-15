@@ -1,14 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: testcases.TestNumberOne
 -------------------------------------------------------------------------------
-Tests run: 2, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 34.696 sec <<< FAILURE!
-enter_userDetails(testcases.TestNumberOne)  Time elapsed: 0.025 sec  <<< FAILURE!
-java.lang.AssertionError: expected [App & Browser Testing Made Easy] but found [Create a FREE Account]
-	at org.testng.Assert.fail(Assert.java:94)
-	at org.testng.Assert.failNotEquals(Assert.java:494)
-	at org.testng.Assert.assertEquals(Assert.java:123)
-	at org.testng.Assert.assertEquals(Assert.java:176)
-	at org.testng.Assert.assertEquals(Assert.java:186)
-	at pages.SignUpPage.veryHeader(SignUpPage.java:57)
-	at testcases.TestNumberOne.enter_userDetails(TestNumberOne.java:41)
-
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 25.361 sec
